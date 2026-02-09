@@ -1,16 +1,19 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Home from './pages/Home';
-import Properties from './pages/Properties';
-import PropertyDetails from './pages/PropertyDetails';
-import Construction from './pages/Construction';
-import Landlord from './pages/Landlord';
-import RegisterInterest from './pages/RegisterInterest';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Legal from './pages/Legal';
+
+import Home from '../pages/Home';
+import Properties from '../pages/Properties';
+import PropertyDetails from '../pages/PropertyDetails';
+import Construction from '../pages/Construction';
+import Landlord from '../pages/Landlord';
+import RegisterInterest from '../pages/RegisterInterest';
+import About from '../pages/About';
+import Contact from '../pages/Contact';
+import Legal from '../pages/Legal';
+
 
 // Scroll to top on route change
 const ScrollToTop = () => {
